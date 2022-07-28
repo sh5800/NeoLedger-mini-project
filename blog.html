@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon(1).ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+  
+    <title>Read Our Blog</title>
+</head>
+<body id="home">
+    <header class="hero blog">
+        <div class="nav" id="navbar">
+            <h1 class="logo">
+                <span class="text-primary"><i class="fas fa-book-open"></i>Neo</span>Ledger
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html#about">ABOUT</a></li>
+                    <li><a href="index.html#cases">CASES</a></li>
+                    <li><a href="index.html#blog">BLOG</a></li>
+                    <li><a href="index.html#Contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Blog Section</h1>
+        </div>
+    </header>
+
+    <main>
+        <article class="flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img class="img" src="images/blog/blog1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-light">
+                        <h2>Blog Post One</h2>
+                        <p class="meta">
+                            <i class="fas fa-user"></i>
+                            Posted by <strong>John Doe</strong> | July 25 2022
+                        </p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus earum sunt animi, deserunt quia aspernatur? Iusto harum sunt suscipit veniam obcaecati quos fugit, nam magnam!</p>
+                        <a href="post.html#postone" class="btn btn-dark" target="_blank">
+                            <i class="fas fa-chevron"></i>
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-2 bg-dark">
+                        <h2>Blog Post Two</h2>
+                        <p class="meta">
+                            <i class="fas fa-user"></i>
+                            Posted by <strong>Jane Doe</strong> | July 20 2022
+                        </p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus earum sunt animi, deserunt quia aspernatur? Iusto harum sunt suscipit veniam obcaecati quos fugit, nam magnam!</p>
+                        <a href="post.html#posttwo" class="btn btn-light" target="_blank">
+                            <i class="fas fa-chevron"></i>
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-1">
+                        <img class="img" src="images/blog/blog2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img class="img" src="images/blog/blog3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-light">
+                        <h2>Blog Post Three</h2>
+                        <p class="meta">
+                            <i class="fas fa-user"></i>
+                            Posted by <strong>John Doe</strong> | July 15 2022
+                        </p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus earum sunt animi, deserunt quia aspernatur? Iusto harum sunt suscipit veniam obcaecati quos fugit, nam magnam!</p>
+                        <a href="post.html#postthree" class="btn btn-dark" target="_blank">
+                            <i class="fas fa-chevron"></i>
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+    </main>
+    <footer class="footer bg-dark">
+        <div class="social">
+            <a href="https://www.facebook.com/neosoftpvtltd" class="fab fa-facebook fa-2x" target="_blank"></a>
+            <a href="https://twitter.com/neosoftofficial" class="fab fa-twitter fa-2x" target="_blank"></a>
+            <a href="https://www.youtube.com/channel/UCRCbn5adUPg5QFCB-Rw7L7w/featured" class="fab fa-youtube fa-2x" target="_blank"></a>
+            <a href="https://www.linkedin.com/company/neosoft/mycompany/" class="fab fa-linkedin fa-2x" target="_blank"></a>
+        </div>
+        <p>Copyright &copy; 2022 - NeoLedger</p>
+    </footer>
+    <script>
+         const navbar = document.getElementById('navbar');
+        let scrolled = false;
+
+
+        window.onscroll = function() {
+            if(window.pageYOffset > 100){
+                navbar.classList.remove('top');
+                if(!scrolled){
+                    navbar.style.transform="translateY(-70px)";
+                }
+                setTimeout(function(){
+                    navbar.style.transform="translateY(0)";
+                    scrolled=true;
+                },200)
+            }
+            else{
+                navbar.classList.add('top');
+                scrolled=false;
+            }
+        };
+    </script>
+</body>
+</html>
+
