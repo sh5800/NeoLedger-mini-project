@@ -1,1 +1,1 @@
-# NeoLedger-mini-project
+# NeoLedger Mini Project
