@@ -1,7 +1,7 @@
 # NeoLedger Mini Project
 
 ## A financial assistance website
----
+<br/>
 This website is created using **HTML, CSS, JS and JQUERY** <br/>
 The resources used in this website have been taken from
 * Font: https://fonts.google.com/
