@@ -8,3 +8,5 @@ The resources used in this website have been taken from <br/>
 * Images: https://www.pexels.com/
 * Icons: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css
 * JQuery: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
+<br/>
+Hosted Website Link: https://sh5800.github.io/NeoLedger-mini-project/
