@@ -1,9 +1,9 @@
 # NeoLedger Mini Project
 
 ## A financial assistance website
-<br/>
+---
 This website is created using **HTML, CSS, JS and JQUERY** <br/>
-The resources used in this website have been taken from
+The resources used in this website have been taken from <br/>
 * Font: https://fonts.google.com/
 * Images: https://www.pexels.com/
 * Icons: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css
